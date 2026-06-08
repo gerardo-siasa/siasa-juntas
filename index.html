@@ -1,108 +1,289 @@
-<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>SIASA Junta Semanal 1 Jun 2026</title><style>*{box-sizing:border-box;margin:0;padding:0}body{font-family:'Segoe UI',Arial,sans-serif;background:#f0f2f5;color:#1a1a2e}.header{background:linear-gradient(135deg,#1a1a2e,#0f3460);color:#fff;padding:24px 32px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}.header h1{font-size:22px;font-weight:700}.header p{font-size:12px;color:#a0aec0;margin-top:3px}.fecha{font-size:20px;font-weight:700;color:#63b3ed;text-align:right}.resp{font-size:11px;color:#a0aec0}.conf{background:#e53e3e;font-size:10px;font-weight:700;letter-spacing:2px;padding:2px 8px;border-radius:3px;display:inline-block;margin-top:5px}.tabs{display:flex;background:#1a1a2e;padding:0 32px;gap:4px;overflow-x:auto}.tab{padding:10px 18px;cursor:pointer;font-size:12px;font-weight:600;color:#718096;border-bottom:3px solid transparent;white-space:nowrap}.tab:hover{color:#63b3ed}.tab.active{color:#63b3ed;border-bottom-color:#63b3ed}.content{padding:24px 32px;max-width:1200px;margin:0 auto}.section{display:none}.section.active{display:block}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:14px;margin-bottom:20px}.card{background:#fff;border-radius:10px;padding:18px;box-shadow:0 2px 6px rgba(0,0,0,.07);border-left:4px solid #63b3ed}.card.v{border-left-color:#38a169}.card.o{border-left-color:#dd6b20}.card.g{border-left-color:#718096}.cl{font-size:10px;font-weight:700;color:#718096;text-transform:uppercase;letter-spacing:.7px;margin-bottom:7px}.cv{font-size:19px;font-weight:800;color:#1a1a2e}.cs{font-size:10px;color:#a0aec0;margin-top:4px}.panel{background:#fff;border-radius:10px;padding:20px;box-shadow:0 2px 6px rgba(0,0,0,.07);margin-bottom:18px}.pt{font-size:13px;font-weight:700;color:#2d3748;margin-bottom:14px}table{width:100%;border-collapse:collapse;font-size:12px}th{background:#f7fafc;color:#4a5568;font-weight:700;padding:9px 10px;text-align:left;font-size:10px;text-transform:uppercase;border-bottom:2px solid #e2e8f0}td{padding:9px 10px;border-bottom:1px solid #f0f0f0;color:#2d3748}.m{font-weight:700;font-family:monospace}.mp{color:#276749}.mn{color:#822727}.tr td{font-weight:800;background:#f0f7ff;border-top:2px solid #63b3ed}.pb{height:7px;background:#e2e8f0;border-radius:4px;overflow:hidden;margin-top:3px}.pf{height:100%;border-radius:4px}.sg{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}.si{background:#f7fafc;border-radius:9px;padding:14px;display:flex;align-items:center;gap:12px}.se{font-size:26px}.sl{font-size:11px;font-weight:700;color:#4a5568}.sv{font-size:14px;font-weight:800;margin-top:2px}.ss{font-size:10px;margin-top:2px;font-weight:600}.al{display:flex;gap:10px;background:#fff5f5;border:1px solid #fc8181;border-radius:9px;padding:12px 16px;margin-bottom:9px}.ai{font-size:18px;flex-shrink:0}.at{font-size:12px;color:#742a2a;font-weight:600}.tc{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px}.et{font-size:10px;font-weight:700;padding:2px 8px;border-radius:10px}.ee{background:#bee3f8;color:#2c5282}.ea{background:#fefcbf;color:#744210}.footer{text-align:center;padding:16px;color:#a0aec0;font-size:10px;border-top:1px solid #e2e8f0;margin-top:16px}@media(max-width:700px){.tc{grid-template-columns:1fr}.header{flex-direction:column}.content{padding:14px}.tabs{padding:0 14px}}</style></head><body>
-<div class="header"><div><h1>&#9881; SIASA &middot; MG TECH</h1><p>Solucion Integral Anticorrosiva &mdash; Junta Semanal</p><span class="conf">CONFIDENCIAL &middot; USO INTERNO</span></div><div><div class="fecha">01 Junio 2026</div><div class="resp">Gerardo Gutierrez Rosas</div></div></div>
-<div class="tabs"><div class="tab active" onclick="st('r',this)">&#128202; Resumen</div><div class="tab" onclick="st('f',this)">&#128176; Finanzas</div><div class="tab" onclick="st('o',this)">&#127959; Obras &amp; OC</div><div class="tab" onclick="st('a',this)">&#9989; Actividades</div></div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>SIASA Junta Semanal 2026-06-08</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',Arial,sans-serif;background:#f0f2f5;color:#1a1a2e}
+.header{background:linear-gradient(135deg,#1a1a2e,#0f3460);color:#fff;padding:24px 32px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.header h1{font-size:22px;font-weight:700}
+.header p{font-size:12px;color:#a0aec0;margin-top:3px}
+.fecha{font-size:20px;font-weight:700;color:#63b3ed;text-align:right}
+.resp{font-size:11px;color:#a0aec0}
+.conf{background:#e53e3e;font-size:10px;font-weight:700;letter-spacing:2px;padding:2px 8px;border-radius:3px;display:inline-block;margin-top:5px}
+.tabs{display:flex;background:#1a1a2e;padding:0 32px;gap:4px;overflow-x:auto}
+.tab{padding:10px 18px;cursor:pointer;font-size:12px;font-weight:600;color:#718096;border-bottom:3px solid transparent;white-space:nowrap}
+.tab:hover{color:#63b3ed}
+.tab.active{color:#63b3ed;border-bottom-color:#63b3ed}
+.content{padding:24px 32px;max-width:1200px;margin:0 auto}
+.section{display:none}
+.section.active{display:block}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:14px;margin-bottom:20px}
+.card{background:#fff;border-radius:10px;padding:18px;box-shadow:0 2px 6px rgba(0,0,0,.07);border-left:4px solid #63b3ed}
+.card.v{border-left-color:#38a169}
+.card.o{border-left-color:#dd6b20}
+.card.g{border-left-color:#718096}
+.cl{font-size:10px;font-weight:700;color:#718096;text-transform:uppercase;letter-spacing:.7px;margin-bottom:7px}
+.cv{font-size:19px;font-weight:800;color:#1a1a2e}
+.cs{font-size:10px;color:#a0aec0;margin-top:4px}
+.panel{background:#fff;border-radius:10px;padding:20px;box-shadow:0 2px 6px rgba(0,0,0,.07);margin-bottom:18px}
+.pt{font-size:13px;font-weight:700;color:#2d3748;margin-bottom:14px}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{background:#f7fafc;color:#4a5568;font-weight:700;padding:9px 10px;text-align:left;font-size:10px;text-transform:uppercase;border-bottom:2px solid #e2e8f0}
+td{padding:9px 10px;border-bottom:1px solid #f0f0f0;color:#2d3748}
+tr:hover td{background:#f7fafc}
+.m{font-weight:700;font-family:monospace}
+.mp{color:#276749}
+.mn{color:#822727}
+.tr td{font-weight:800;background:#f0f7ff;border-top:2px solid #63b3ed}
+.pb{height:7px;background:#e2e8f0;border-radius:4px;overflow:hidden;margin-top:3px}
+.pf{height:100%;border-radius:4px}
+.sg{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.si{background:#f7fafc;border-radius:9px;padding:14px;display:flex;align-items:center;gap:12px}
+.se{font-size:26px}
+.sl{font-size:11px;font-weight:700;color:#4a5568}
+.sv{font-size:14px;font-weight:800;margin-top:2px}
+.ss{font-size:10px;margin-top:2px;font-weight:600}
+.al{display:flex;gap:10px;background:#fff5f5;border:1px solid #fc8181;border-radius:9px;padding:12px 16px;margin-bottom:9px}
+.ai{font-size:18px;flex-shrink:0}
+.at{font-size:12px;color:#742a2a;font-weight:600}
+.tc{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px}
+.et{font-size:10px;font-weight:700;padding:2px 8px;border-radius:10px}
+.ee{background:#bee3f8;color:#2c5282}
+.ea{background:#fefcbf;color:#744210}
+.ep{background:#e2e8f0;color:#4a5568}
+.footer{text-align:center;padding:16px;color:#a0aec0;font-size:10px;border-top:1px solid #e2e8f0;margin-top:16px}
+@media(max-width:700px){.tc{grid-template-columns:1fr}.header{flex-direction:column}.content{padding:14px}.tabs{padding:0 14px}}
+</style>
+</head>
+<body>
+<div class="header">
+  <div>
+    <h1>&#9881; SIASA &middot; MG TECH</h1>
+    <p>Soluci&#243;n Integral Anticorrosiva &#8212; Junta Semanal</p>
+    <span class="conf">CONFIDENCIAL &middot; USO INTERNO</span>
+  </div>
+  <div>
+    <div class="fecha">Semana: 2026-06-08</div>
+    <div class="resp">Gerardo Gutierrez Rosas</div>
+  </div>
+</div>
+<div class="tabs">
+  <div class="tab active" onclick="st('r',this)">&#128202; Resumen</div>
+  <div class="tab" onclick="st('f',this)">&#128176; Finanzas</div>
+  <div class="tab" onclick="st('o',this)">&#127959; Obras &amp; OC</div>
+  <div class="tab" onclick="st('a',this)">&#9989; Actividades</div>
+</div>
+
+<!-- RESUMEN -->
 <div class="content section active" id="s-r">
 <div class="cards">
-<div class="card v"><div class="cl">&#128181; Caja Sin Credito</div><div class="cv">$75,136</div><div class="cs">SIASA + MG TECH (MXN)</div></div>
-<div class="card"><div class="cl">&#127974; Caja Con Credito</div><div class="cv">$374,486</div><div class="cs">Incluye linea credito SIASA</div></div>
-<div class="card o"><div class="cl">&#128203; CxC Total</div><div class="cv">$285,636</div><div class="cs">SYPRISA + SJ + Mexenil</div></div>
-<div class="card g"><div class="cl">&#128184; Gastos Semana</div><div class="cv">$131,355</div><div class="cs">Operativos + PO-488</div></div>
-<div class="card" style="border-left-color:#9b59b6;background:#fdf8ff"><div class="cl" style="color:#6c3483">&#127974; Atlas (credito)</div><div class="cv" style="color:#6c3483">$374,636</div><div class="cs">No afecta flujo operativo</div></div>
+  <div class="card v"><div class="cl">&#128181; Caja Sin Cr&#233;dito</div><div class="cv">$57,661</div><div class="cs">SIASA + MG TECH (MXN)</div></div>
+  <div class="card"><div class="cl">&#127974; Caja Con Cr&#233;dito</div><div class="cv">$1,969,317</div><div class="cs">Incluye l&#237;nea cr&#233;dito SIASA</div></div>
+  <div class="card o"><div class="cl">&#128203; CxC Total</div><div class="cv">$329,148</div><div class="cs">Por cobrar esta semana</div></div>
+  <div class="card g"><div class="cl">&#128184; Gastos Semana</div><div class="cv">$122,222</div><div class="cs">Operativos + OC aprox.</div></div>
+  <div class="card" style="border-left-color:#9b59b6;background:#fdf8ff"><div class="cl" style="color:#6c3483">&#127974; CPP (con cr&#233;dito)</div><div class="cv" style="color:#6c3483">$559,782</div><div class="cs">No afecta flujo operativo</div></div>
 </div>
 <div class="cards">
-<div class="card" style="border-left-color:#e53e3e;background:linear-gradient(135deg,#fff5f5,#fed7d7)"><div class="cl" style="color:#822727">&#128308; DISPONIBLE SIN CREDITO</div><div style="font-size:10px;color:#718096;margin-bottom:5px">Caja SC &minus; Gastos Semana</div><div class="cv" style="font-size:28px;color:#e53e3e">&minus;$56,220</div><div style="margin-top:7px;font-size:10px;background:#822727;color:#fff;padding:3px 9px;border-radius:5px;display:inline-block;font-weight:700">&#9940; DEFICIT: $75,136 &minus; $131,355</div></div>
-<div class="card" style="border-left-color:#2b6cb0;background:linear-gradient(135deg,#ebf8ff,#e0f0ff)"><div class="cl" style="color:#2b6cb0">&#9989; DISPONIBLE CON CREDITO</div><div style="font-size:10px;color:#718096;margin-bottom:5px">Caja CC &minus; Gastos Semana</div><div class="cv" style="font-size:28px;color:#2b6cb0">$167,995</div><div style="margin-top:7px;font-size:10px;background:#c6f6d5;color:#276749;padding:3px 9px;border-radius:5px;display:inline-block;font-weight:700">&#10003; HAY MARGEN &mdash; priorizar cobros</div></div>
+  
+<div class="card" style="border-left-color:#e53e3e;background:linear-gradient(135deg,#fff5f5,#fed7d7)">
+  <div class="cl" style="color:#e53e3e">&#128308; DISPONIBLE NETO SIN CR&#201;DITO</div>
+  <div style="font-size:10px;color:#718096;margin-bottom:5px">Caja SC &#8722; Gastos Semana</div>
+  <div class="cv" style="font-size:28px;color:#e53e3e">-$64,562</div>
+  <div style="margin-top:7px;font-size:10px;background:#822727;color:#fff;padding:3px 9px;border-radius:5px;display:inline-block;font-weight:700">&#9940; D&#201;FICIT: $57,661 &#8722; $122,222</div>
 </div>
-<div class="panel"><div class="pt">&#128678; Semaforo Financiero</div><div class="sg">
-<div class="si"><div class="se">&#9940;</div><div><div class="sl">Disponible Sin Credito</div><div class="sv" style="color:#e53e3e">&minus;$56,220 MXN</div><div class="ss" style="color:#e53e3e">DEFICIT &mdash; urge cobrar</div></div></div>
-<div class="si"><div class="se">&#9989;</div><div><div class="sl">Disponible Con Credito</div><div class="sv" style="color:#2b6cb0">$167,995 MXN</div><div class="ss" style="color:#276749">POSITIVO &mdash; margen con credito</div></div></div>
-<div class="si"><div class="se">&#128203;</div><div><div class="sl">CxC Pendiente Cobrar</div><div class="sv" style="color:#276749">$285,636 MXN</div><div class="ss" style="color:#dd6b20">&#9889; Priorizar cobros</div></div></div>
-<div class="si"><div class="se">&#128181;</div><div><div class="sl">TC USD/MXN</div><div class="sv">$17.50</div><div class="ss" style="color:#4a5568">Actualizado esta semana</div></div></div>
-</div></div>
-<div class="panel"><div class="pt">&#9888;&#65039; Alertas y Temas Criticos</div>
-<div class="al"><div class="ai">&#128308;</div><div class="at">Cobro a SYPRISA &mdash; $144,978 pendiente. Gestionar esta semana.</div></div>
-<div class="al"><div class="ai">&#128308;</div><div class="at">Cobro a San Jacinto &mdash; $120,000 est. Arranque de obra, definir calendario de pagos.</div></div>
-<div class="al"><div class="ai">&#128993;</div><div class="at">Confirmar alcance y condiciones contrato San Jacinto antes de iniciar ejecucion.</div></div>
-<div class="al" style="background:#fdf8ff;border-color:#d8b4fe"><div class="ai">&#127974;</div><div class="at" style="color:#6c3483">PO-488 ATLAS &mdash; $16,975 USD en transito (~10 Jun). Cubierta con credito, no afecta liquidez operativa.</div></div>
-</div></div>
+  
+<div class="card" style="border-left-color:#2b6cb0;background:linear-gradient(135deg,#ebf8ff,#e0f0ff)">
+  <div class="cl" style="color:#2b6cb0">&#9989; DISPONIBLE NETO CON CR&#201;DITO</div>
+  <div style="font-size:10px;color:#718096;margin-bottom:5px">Caja CC &#8722; Gastos Semana</div>
+  <div class="cv" style="font-size:28px;color:#2b6cb0">$1,847,095</div>
+  <div style="margin-top:7px;font-size:10px;background:#c6f6d5;color:#276749;padding:3px 9px;border-radius:5px;display:inline-block;font-weight:700">&#10003; Con cr&#233;dito hay margen &#8212; priorizar cobros</div>
+</div>
+</div>
+<div class="panel">
+  <div class="pt">&#128678; Sem&#225;foro Financiero</div>
+  <div class="sg">
+    
+<div class="si">
+  <div class="se">&#9940;</div>
+  <div>
+    <div class="sl">Disponible Sin Cr&#233;dito</div>
+    <div class="sv" style="color:#e53e3e">-$64,562 MXN</div>
+    <div class="ss" style="color:#e53e3e">D&#201;FICIT &#8212; urge cobrar</div>
+  </div>
+</div>
+    
+<div class="si">
+  <div class="se">&#9989;</div>
+  <div>
+    <div class="sl">Disponible Con Cr&#233;dito</div>
+    <div class="sv" style="color:#2b6cb0">$1,847,095 MXN</div>
+    <div class="ss" style="color:#276749">POSITIVO &#8212; hay margen</div>
+  </div>
+</div>
+    <div class="si"><div class="se">&#128203;</div><div>
+      <div class="sl">CxC Pendiente Cobrar</div>
+      <div class="sv" style="color:#276749">$329,148 MXN</div>
+      <div class="ss" style="color:#dd6b20">&#9889; Priorizar cobros esta semana</div>
+    </div></div>
+    <div class="si"><div class="se">&#128181;</div><div>
+      <div class="sl">TC USD/MXN</div>
+      <div class="sv">$17.5</div>
+      <div class="ss" style="color:#4a5568">Actualizado esta semana</div>
+    </div></div>
+  </div>
+</div>
+<div class="panel">
+  <div class="pt">&#9888+&#65039; Alertas y Temas Cr&#237;ticos</div>
+  <div class="al"><div class="ai">&#128308;</div><div class="at">Cobro a SYPRISA</div></div>
+<div class="al"><div class="ai">&#128308;</div><div class="at">Factrua San jacinto</div></div>
+<div class="al"><div class="ai">&#128308;</div><div class="at">Factura (19,399.84) Andres Manzanero Salazar</div></div>
+
+</div>
+</div>
+
+<!-- FINANZAS -->
 <div class="content section" id="s-f">
 <div class="tc">
-<div class="panel"><div class="pt">&#128176; Posicion Financiera</div><table><thead><tr><th>Empresa</th><th>Fondo</th><th>MXN</th><th>USD</th></tr></thead><tbody>
-<tr><td>SIASA</td><td>Cuenta</td><td class="m">$40,570</td><td class="m">$1,547</td></tr>
-<tr><td>SIASA</td><td>Inversion</td><td class="m">$584</td><td class="m">&mdash;</td></tr>
-<tr><td>SIASA</td><td>Credito</td><td class="m">$299,350</td><td class="m">&mdash;</td></tr>
-<tr><td>MG TECH</td><td>Cuenta</td><td class="m">$5,999</td><td class="m">$52</td></tr>
-<tr class="tr"><td colspan="2">CAJA SIN CREDITO</td><td class="m mp">$75,136</td><td>&mdash;</td></tr>
-<tr class="tr"><td colspan="2">CAJA CON CREDITO</td><td class="m mp">$374,486</td><td>&mdash;</td></tr>
-</tbody></table></div>
-<div class="panel"><div class="pt">&#128184; Gastos de la Semana</div><table><thead><tr><th>Concepto</th><th>SIASA</th><th>MG</th></tr></thead><tbody>
-<tr><td>Renta/Oficina</td><td class="m">$5,220</td><td>&mdash;</td></tr>
-<tr><td>Camioneta F150</td><td class="m">$7,575</td><td>&mdash;</td></tr>
-<tr><td>Territory</td><td class="m">$8,689</td><td>&mdash;</td></tr>
-<tr><td>MG Telmex</td><td>&mdash;</td><td class="m">$237</td></tr>
-<tr><td>Martin sueldo</td><td class="m">$21,219</td><td>&mdash;</td></tr>
-<tr><td>Martin gastos</td><td class="m">$9,000</td><td>&mdash;</td></tr>
-<tr><td>PO-488 Atlas (aprox.)</td><td class="m">$79,415</td><td>&mdash;</td></tr>
-<tr class="tr"><td>TOTAL GASTOS</td><td class="m mn" colspan="2">$131,355 MXN</td></tr>
-</tbody></table>
-<div style="margin-top:12px;background:#fdf8ff;border:1px solid #d8b4fe;border-radius:8px;padding:11px">
-<div style="font-size:10px;font-weight:800;color:#6c3483;margin-bottom:3px">&#127974; ATLAS CON CREDITO &mdash; No impacta flujo operativo</div>
-<div style="font-size:11px;color:#6c3483">Adeudo total: $374,636 MXN &mdash; Monitorear vencimiento linea</div>
-</div></div>
+  <div class="panel">
+    <div class="pt">&#128176; Posici&#243;n Financiera</div>
+    <table><thead><tr><th>Empresa</th><th>Fondo</th><th>MXN</th><th>USD</th></tr></thead>
+    <tbody>
+      <tr><td>SIASA</td><td>Cuenta</td><td class="m">$23,095</td><td class="m">$1,547</td></tr>
+      <tr><td>SIASA</td><td>Inversi&#243;n</td><td class="m">$584</td><td class="m">&#8212;</td></tr>
+      <tr><td>SIASA</td><td>Cr&#233;dito</td><td class="m">$1,969,317</td><td class="m">&#8212;</td></tr>
+      <tr><td>MG TECH</td><td>Cuenta</td><td class="m">$5,999</td><td class="m">$52</td></tr>
+      <tr class="tr"><td colspan="2">CAJA SIN CR&#201;DITO</td><td class="m mp">$57,661</td><td>&#8212;</td></tr>
+      <tr class="tr"><td colspan="2">CAJA CON CR&#201;DITO</td><td class="m mp">$1,969,317</td><td>&#8212;</td></tr>
+    </tbody></table>
+  </div>
+  <div class="panel">
+    <div class="pt">&#128184; Gastos de la Semana</div>
+    <table><thead><tr><th>Concepto</th><th>SIASA $</th><th>MG $</th></tr></thead>
+    <tbody>
+      <tr><td>KIA MARY</td><td class='m'>$6,630</td><td class='m'>&#8212;</td></tr><tr><td>Nomina para Martin</td><td class='m'>$23,060</td><td class='m'>&#8212;</td></tr><tr><td>Nomina colocadores /Gastos</td><td class='m'>$25,000</td><td class='m'>&#8212;</td></tr><tr><td>PO 488 - APROX</td><td class='m'>$67,532</td><td class='m'>&#8212;</td></tr>
+      <tr class="tr"><td>TOTAL GASTOS</td><td class="m mn" colspan="2">$122,222 MXN</td></tr>
+    </tbody></table>
+    <div style="margin-top:12px;background:#fdf8ff;border:1px solid #d8b4fe;border-radius:8px;padding:11px">
+      <div style="font-size:10px;font-weight:800;color:#6c3483;margin-bottom:3px">&#127974; CPP CON CR&#201;DITO &#8212; No impacta flujo operativo semanal</div>
+      <div style="font-size:11px;color:#6c3483">Adeudo total: $559,782 MXN &#8212; Monitorear vencimiento de l&#237;nea</div>
+    </div>
+  </div>
 </div>
 <div class="tc">
-<div class="panel"><div class="pt">&#128203; Cuentas por Cobrar (CxC)</div><table><thead><tr><th>Cliente</th><th>Monto</th><th>Status</th></tr></thead><tbody>
-<tr><td>SYPRISA</td><td class="m mp">$144,978</td><td><span style="background:#fefcbf;color:#744210;padding:2px 7px;border-radius:9px;font-size:10px;font-weight:700">&#9203; Cobrar</span></td></tr>
-<tr><td>San Jacinto (est.)</td><td class="m mp">$120,000</td><td><span style="background:#fefcbf;color:#744210;padding:2px 7px;border-radius:9px;font-size:10px;font-weight:700">&#128276; Cobrar</span></td></tr>
-<tr><td>Mexenil</td><td class="m mp">$20,657</td><td><span style="background:#c6f6d5;color:#276749;padding:2px 7px;border-radius:9px;font-size:10px;font-weight:700">OK</span></td></tr>
-<tr class="tr"><td>TOTAL CxC</td><td class="m mp">$285,636</td><td>&mdash;</td></tr>
-</tbody></table></div>
-<div class="panel"><div class="pt">&#128179; Cuentas por Pagar (CPP)</div><table><thead><tr><th>Proveedor</th><th>Monto</th><th>Status</th></tr></thead><tbody>
-<tr><td>Atlas Minerals</td><td class="m mn">$374,636</td><td><span style="background:#fdf8ff;color:#6c3483;padding:2px 7px;border-radius:9px;font-size:10px;font-weight:700">Con credito</span></td></tr>
-<tr class="tr"><td>TOTAL CPP</td><td class="m mn">$374,636</td><td>&mdash;</td></tr>
-</tbody></table>
-<div style="margin-top:10px;font-size:11px;color:#6c3483;background:#fdf8ff;padding:9px;border-radius:7px">Cubierto con linea de credito &mdash; monitorear vencimiento.</div>
+  <div class="panel">
+    <div class="pt">&#128203; Cuentas por Cobrar (CxC)</div>
+    <table><thead><tr><th>Cliente</th><th>Monto</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr>
+  <td>SYPRISA</td>
+  <td class="m mp">$144,978</td>
+  <td><span style="background:#c6f6d5;color:#276749;padding:2px 7px;border-radius:9px;font-size:10px;font-weight:700">Vencido</span></td>
+</tr><tr>
+  <td>San jacinto estimación</td>
+  <td class="m mp">$163,513</td>
+  <td><span style="background:#c6f6d5;color:#276749;padding:2px 7px;border-radius:9px;font-size:10px;font-weight:700">Pendiente</span></td>
+</tr><tr>
+  <td>Mexenil</td>
+  <td class="m mp">$20,657</td>
+  <td><span style="background:#c6f6d5;color:#276749;padding:2px 7px;border-radius:9px;font-size:10px;font-weight:700">Pendiente</span></td>
+</tr>
+      <tr class="tr"><td>TOTAL CxC</td><td class="m mp">$329,148</td><td>&#8212;</td></tr>
+    </tbody></table>
+  </div>
+  <div class="panel">
+    <div class="pt">&#128179; Cuentas por Pagar (CPP)</div>
+    <table><thead><tr><th>Proveedor</th><th>Monto</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr>
+  <td>Atlas Minerals & Chemical</td>
+  <td class="m mn">$262,707</td>
+  <td><span style="background:#fdf8ff;color:#6c3483;padding:2px 7px;border-radius:9px;font-size:10px;font-weight:700">Con cr&#233;dito</span></td>
+</tr><tr>
+  <td>Atlas Minerals & Chemical</td>
+  <td class="m mn">$297,075</td>
+  <td><span style="background:#fdf8ff;color:#6c3483;padding:2px 7px;border-radius:9px;font-size:10px;font-weight:700">Con cr&#233;dito</span></td>
+</tr>
+      <tr class="tr"><td>TOTAL CPP</td><td class="m mn">$559,782</td><td>&#8212;</td></tr>
+    </tbody></table>
+    <div style="margin-top:10px;font-size:11px;color:#6c3483;background:#fdf8ff;padding:9px;border-radius:7px">
+      Cubierto con l&#237;nea de cr&#233;dito &#8212; monitorear vencimiento.
+    </div>
+  </div>
 </div>
-</div></div>
+</div>
+
+<!-- OBRAS -->
 <div class="content section" id="s-o">
-<div class="panel"><div class="pt">&#127959;&#65039; Obras Activas &mdash; Seguimiento</div>
-<table><thead><tr><th>Obra</th><th>Contrato</th><th>Cobrado</th><th>Por Cobrar</th><th>Avance</th><th>Etapa</th></tr></thead><tbody>
-<tr><td><strong>BYDSA</strong></td><td class="m">$248,310</td><td class="m mp">$124,155</td><td class="m mn">$124,155</td><td><div>50%</div><div class="pb"><div class="pf" style="width:50%;background:#63b3ed"></div></div></td><td><span class="et ee">Ejecucion</span></td></tr>
-<tr><td><strong>Buenaventura</strong></td><td class="m">$2,514,680</td><td class="m mp">$2,325,271</td><td class="m mn">$189,409</td><td><div>92%</div><div class="pb"><div class="pf" style="width:92%;background:#38a169"></div></div></td><td><span class="et ee">Ejecucion</span></td></tr>
-<tr><td><strong>MEXENIL</strong></td><td class="m">$41,935</td><td class="m mp">$20,968</td><td class="m mn">$20,968</td><td><div>50%</div><div class="pb"><div class="pf" style="width:50%;background:#63b3ed"></div></div></td><td><span class="et ee">Ejecucion</span></td></tr>
-<tr><td><strong>San Jacinto</strong></td><td class="m">$1,411,039</td><td class="m" style="color:#a0aec0">$0</td><td class="m mn">$1,411,039</td><td><div>0%</div><div class="pb"><div class="pf" style="width:2%;background:#e53e3e"></div></div></td><td><span class="et ea">Arranque</span></td></tr>
-<tr class="tr"><td>TOTALES</td><td class="m">$4,215,964</td><td class="m mp">$2,470,394</td><td class="m mn">$1,745,571</td><td colspan="2" style="font-size:11px;color:#4a5568">59% cobrado del total</td></tr>
-</tbody></table>
-<div style="margin-top:12px"><div class="pb" style="height:11px;border-radius:6px"><div class="pf" style="width:59%;background:linear-gradient(90deg,#38a169,#63b3ed);border-radius:6px"></div></div><div style="font-size:10px;color:#718096;margin-top:4px;text-align:center">Avance global: 59% cobrado &mdash; $1.75M por cobrar en obra</div></div>
+<div class="panel">
+  <div class="pt">&#127959;&#65039; Obras Activas &#8212; Seguimiento</div>
+  <table><thead><tr><th>Obra / Cliente</th><th>Contrato</th><th>Cobrado</th><th>Por Cobrar</th><th>% Avance</th><th>Etapa</th></tr></thead>
+  <tbody>
+    
+<tr>
+  <td><strong>BYDSA</strong></td>
+  <td class="m">$248,310</td>
+  <td class="m mp">$124,155</td>
+  <td class="m mn">$124,155</td>
+  <td>
+    <div>50%</div>
+    <div class="pb"><div class="pf" style="width:50%;background:#63b3ed"></div></div>
+  </td>
+  <td><span class="et ee">Ejecución</span></td>
+</tr>
+<tr>
+  <td><strong>Buenaventura</strong></td>
+  <td class="m">$2,514,680</td>
+  <td class="m mp">$2,251,271</td>
+  <td class="m mn">$189,409</td>
+  <td>
+    <div>92%</div>
+    <div class="pb"><div class="pf" style="width:92%;background:#38a169"></div></div>
+  </td>
+  <td><span class="et ee">Ejecución</span></td>
+</tr>
+<tr>
+  <td><strong>MEXENIL</strong></td>
+  <td class="m">$41,935</td>
+  <td class="m mp">$20,968</td>
+  <td class="m mn">$20,968</td>
+  <td>
+    <div>50%</div>
+    <div class="pb"><div class="pf" style="width:50%;background:#63b3ed"></div></div>
+  </td>
+  <td><span class="et ee">Ejecución</span></td>
+</tr>
+<tr>
+  <td><strong>SAN JACINTO</strong></td>
+  <td class="m">$1,398,039</td>
+  <td class="m mp">$0</td>
+  <td class="m mn">$1,398,039</td>
+  <td>
+    <div>0%</div>
+    <div class="pb"><div class="pf" style="width:0%;background:#e53e3e"></div></div>
+  </td>
+  <td><span class="et ea">Arranque</span></td>
+</tr>
+    <tr class="tr">
+      <td>TOTALES</td>
+      <td class="m">$4,215,064</td>
+      <td class="m mp">$2,470,394</td>
+      <td class="m mn">$1,332,412</td>
+      <td colspan="2" style="font-size:11px;color:#4a5568">59% cobrado del total contratado</td>
+    </tr>
+  </tbody></table>
+  <div style="margin-top:12px">
+    <div class="pb" style="height:11px;border-radius:6px">
+      <div class="pf" style="width:59%;background:linear-gradient(90deg,#38a169,#63b3ed);border-radius:6px"></div>
+    </div>
+    <div style="font-size:10px;color:#718096;margin-top:4px;text-align:center">Avance global: 59% cobrado &#8212; $1,745,571 por cobrar en obra</div>
+  </div>
 </div>
-<div class="panel"><div class="pt">&#128230; Ordenes de Compra Activas</div>
-<table><thead><tr><th>Proveedor</th><th>OC</th><th>USD</th><th>MXN aprox.</th><th>Fecha Est.</th><th>Status</th></tr></thead><tbody>
-<tr><td><strong>ATLAS MINERALS</strong></td><td style="font-family:monospace;font-size:11px">PO-488-ATL</td><td class="m">$16,975</td><td class="m">~$23,354</td><td>10 Jun 2026</td><td><span style="background:#fefcbf;color:#744210;padding:2px 7px;border-radius:9px;font-size:10px;font-weight:700">&#128666; En transito</span></td></tr>
-</tbody></table></div></div>
-<div class="content section" id="s-a">
-<div class="panel"><div class="pt">&#9989; Actividades de la Semana &mdash; Compromisos</div>
-<div style="display:flex;align-items:center;gap:12px;padding:9px 0;border-bottom:1px solid #f0f0f0">
-<div style="width:24px;height:24px;background:#ebf8ff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:800;color:#2b6cb0;flex-shrink:0">1</div>
-<div style="flex:1;font-size:12px">&#128176; Cobro a San Jacinto &mdash; Gestionar primer pago / anticipo de obra</div>
-<div style="font-size:10px;font-weight:700;color:#805ad5;background:#faf5ff;padding:2px 7px;border-radius:9px">Gerardo GR</div>
-</div>
-<div style="font-size:11px;color:#a0aec0;font-style:italic;padding:8px 0">Actividades 2&ndash;15 pendientes de asignar en el Excel antes de la junta.</div>
-</div>
-<div class="panel" style="border:2px solid #63b3ed"><div class="pt">&#127919; Prioridades para Esta Junta</div>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:11px">
-<div style="background:#fff5f5;border-radius:9px;padding:13px;border-left:4px solid #e53e3e">
-<div style="font-size:11px;font-weight:800;color:#822727;margin-bottom:5px">&#128308; URGENTE &mdash; Esta semana</div>
-<div style="font-size:12px;color:#2d3748">Cobrar SYPRISA ($144,978) y San Jacinto ($120,000 est.). Liquidez ajustada sin credito.</div>
-</div>
-<div style="background:#fffaf0;border-radius:9px;padding:13px;border-left:4px solid #dd6b20">
-<div style="font-size:11px;font-weight:800;color:#7b341e;margin-bottom:5px">&#128993; IMPORTANTE &mdash; Definir</div>
-<div style="font-size:12px;color:#2d3748">Confirmar alcance San Jacinto. Monitorear vencimiento credito Atlas Minerals.</div>
-</div>
-<div style="background:#f0fff4;border-radius:9px;padding:13px;border-left:4px solid #38a169">
-<div style="font-size:11px;font-weight:800;color:#276749;margin-bottom:5px">&#128994; SEGUIMIENTO &mdash; Obra</div>
-<div style="font-size:12px;color:#2d3748">Buenaventura 92% &mdash; coordinar cierre y cobro final. PO-488 llega 10 Jun.</div>
-</div>
-</div></div></div>
-<div class="footer">SIASA &mdash; Solucion Integral Anticorrosiva &nbsp;|&nbsp; Junta Semanal 01 Jun 2026 &nbsp;|&nbsp; Confidencial &middot; Uso interno</div>
-<script>function st(id,el){document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));document.getElementById('s-'+id).classList.add('active');el.classList.add('active')}</script>
-</body></html>
+    <div class="panel">
+  <div class="pt">&#128230; &#211;rdenes de Compra Activas</div>
+  <table><thead><tr><th>Proveedor</th><th>OC / Ref</th><th>USD</th><th>MXN aprox.</th><th>Fecha Est.</th><th>Status</th></tr></thead>
+  <tbody><tr>
+  <td><strong>ATLAS MINERALS & CHEMICALS</strong></td>
+  <td style="font-family:monospace;font-size:11px">PO-488-ATL5�  
